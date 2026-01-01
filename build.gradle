@@ -1,0 +1,22 @@
+plugins {
+	id 'java'
+}
+
+group = 'io.github.chanwoo040531'
+version = '0.0.1'
+description = 'spring-rebac'
+
+subprojects {
+	java {
+		toolchain {
+			languageVersion = JavaLanguageVersion.of(17)
+		}
+	}
+}
+repositories {
+	mavenCentral()
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

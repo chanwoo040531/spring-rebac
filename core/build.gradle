@@ -1,0 +1,11 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api 'org.springframework:spring-aop:7.0.2'
+    api 'org.springframework:spring-beans:7.0.2'
+    api 'org.springframework:spring-context:7.0.2'
+    api 'org.springframework:spring-core:7.0.2'
+    api 'org.springframework:spring-expression:7.0.2'
+}
