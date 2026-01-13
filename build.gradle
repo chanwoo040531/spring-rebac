@@ -13,10 +13,3 @@ subprojects {
 		}
 	}
 }
-repositories {
-	mavenCentral()
-}
-
-tasks.named('test') {
-	useJUnitPlatform()
-}
